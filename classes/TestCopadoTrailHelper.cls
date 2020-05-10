@@ -22,7 +22,7 @@ public class TestCopadoTrailHelper {
         
         Test.startTest();
         CopadoTrailHelper.cacheFile cf = new CopadoTrailHelper.cacheFile('ApexClass', 'CopadoTrailHelper','','','','');
-        system.assertEquals('ApexClass', cf.t);
+        system.assertEquals('Test ApexClass', cf.t);
         try{
         	CopadoTrailHelper.trimMetadataCache('copado', 'Test');    
         }
